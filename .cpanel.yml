@@ -4,4 +4,5 @@ deployment:
         - export DEPLOYPATH=/home/gediculture/public_html/tejpal
         - /bin/cp test.html $DEPLOYPATH
         - /bin/cp index.php $DEPLOYPATH
+        - /bin/cp new.php $DEPLOYPATH
 
