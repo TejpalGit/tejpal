@@ -3,5 +3,5 @@ deployment:
       tasks:
         - export DEPLOYPATH=/home/gediculture/public_html/tejpal
         - /bin/cp index.php $DEPLOYPATH
-        - /bin cp /files/* $DEPLOYPATH
+        - /bin/cp /files/* $DEPLOYPATH
 
